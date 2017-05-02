@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Charlotte Voskuilen | Portfolio</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <script src="jquery-3.1.1.min.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <%= image_tag 'charlottevos.png', id: 'logo' %>
+      </div>
+    </header>
+
+    <%= yield %>
+    <footer class="site-footer">
+      <div class="parallax">
+          <h2><strong>GET IN TOUCH</strong></h2>
+            <div class="container">
+              <div class="row">
+                <ul>
+                  <li>
+                    <%= link_to 'https://www.facebook.com/charlotte.voskuilen?ref=bookmarks',
+                    class: "fa fa-facebook fa-1x" do %>
+                    <% end %>
+                  </li>
+
+                  <li>
+                    <%= link_to 'https://github.com/xCharlotte',
+                    class: "fa fa-github fa-1x" do %>
+                    <% end %>
+                  </li>
+
+                  <li>
+                    <%= link_to 'https://www.linkedin.com/in/charlotte-voskuilen-24225081/',
+                    class: "fa fa-linkedin fa-1x" do %>
+                    <% end %>
+                  </li>
+
+                  <li>
+                    <%= link_to 'mailto:charlottevoskuilen@hotmail.com',
+                    class: "fa fa-envelope-o fa-1x" do %>
+                    <% end %>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

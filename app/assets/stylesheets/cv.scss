@@ -1,0 +1,76 @@
+#cv {
+  background-color: #efc185;
+}
+
+h2 {
+  font-size: 2em;
+  text-align: center;
+  margin: 20px 0 40px;
+  padding: 0;
+  color: #fff;
+  font-family: Gujarati Sangam MN;
+}
+
+.timeline {
+
+  .container-fluid {
+  	width: 100%;
+  	margin: 0 auto;
+    overflow: auto;
+  	padding: 2%;
+  }
+}
+
+.right-content, .left-content {
+	float: left;
+	display: block;
+	width: 50%;
+	padding: 1% 2%;
+
+  h1 {
+    color: #000;
+  }
+  p {
+    color: #fff;
+  }
+}
+
+.left-content {
+	border-right: 5px solid #fff;
+	text-align: right;
+}
+
+.left-content h1 {
+	margin: 50px 0 0 ;
+}
+
+.right-content h1 {
+	margin: 220px 0 0;
+}
+
+.left-content p {
+  font-size: 20px;
+}
+
+.right-content p {
+  font-size: 20px;
+}
+
+.timeline {
+
+  .container-fluid h1 {
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7 ease-in-out;
+    -ms-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+  }
+}
+
+.left-content .more-padding {
+  padding-right: 100px;
+}
+
+.right-content .more-padding {
+  padding-left: 100px;
+}

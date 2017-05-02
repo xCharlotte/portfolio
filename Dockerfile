@@ -1,0 +1,1 @@
+FROM ipcloud/rails:onbuild

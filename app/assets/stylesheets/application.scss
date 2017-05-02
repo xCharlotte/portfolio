@@ -1,0 +1,57 @@
+// "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "fonts.scss";
+
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+@import "about";
+@import "portfolio";
+@import "cv";
+@import "footer";
+
+
+
+header {
+  background: image-url("testheader.png") center center;
+  height: 100vh;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .container {
+    text-align: center;
+
+    #logo {
+      padding-top: 25vh;
+      width: 70%;
+    }
+  }
+}
+
+section {
+  position: relative;
+  padding-top: 100px;
+
+  /* Make a round circle around font awesome icons that are displayed at every page */
+  .section-header {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    margin-left: -50px;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    font-size: 40px;
+    width: 80px;
+    height: 80px;
+    background: #333333;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+  }
+}
