@@ -3,13 +3,14 @@
 
   .parallax {
     /* The image used */
-    background-image: image-url("canadatest.png");
+    background-image: image-url("music-is-life.jpeg");
 
     /* Set a specific height */
     height: 680px;
 
     /* Create the parallax scrolling effect */
-    background-position: top center;
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 20px;
@@ -30,16 +31,16 @@ footer {
     margin: 0;
       li {
         display: inline-block;
-        width: 5vw;
-        height: 5vw;
+        width: 4vw;
+        height: 4vw;
         border-radius: 50%;
         text-transform: uppercase;
         text-decoration: none;
         font-size: 3vw;
         text-align: center;
-        line-height: 5vw;
-        margin-left: 20px;
-        margin-right: 20px;
+        // line-height: 5vw;
+        margin-left: 10px;
+        margin-right: 10px;
         background: #333333;
       }
       a {
