@@ -13,9 +13,13 @@
 
 
 
-header {
+.hero {
   background: image-url("header.png") center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
+  padding: 0;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -23,13 +27,8 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
 
-  .container {
-    text-align: center;
-
-    #logo {
-      padding-top: 25vh;
-      width: 70%;
-    }
+  #logo {
+    width: 60%;
   }
 }
 

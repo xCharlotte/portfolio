@@ -12,6 +12,7 @@ h2 {
 }
 
 .timeline {
+  padding-bottom: 50px;
 
   .container-fluid {
   	width: 100%;
@@ -22,7 +23,6 @@ h2 {
 }
 
 .right-content, .left-content {
-	float: left;
 	display: block;
 	width: 50%;
 	padding: 1% 2%;
@@ -34,43 +34,49 @@ h2 {
     color: #fff;
   }
 }
+.right-content {
+  float: right;
+  border-left: 5px solid #fff;
+}
 
 .left-content {
-	border-right: 5px solid #fff;
+  float: left;
 	text-align: right;
+
+  h1 {
+  	margin: 50px 0 0 ;
+  }
 }
 
-.left-content h1 {
-	margin: 50px 0 0 ;
-}
 
-.right-content h1 {
-	margin: 220px 0 0;
-}
-
-.left-content p {
+.left-content {
   font-size: 20px;
 }
 
-.right-content p {
+.right-content {
   font-size: 20px;
 }
 
 .timeline {
 
-  .container-fluid h1 {
+  .container-fluid div {
     -webkit-transition: all 0.7s ease-in-out;
     -moz-transition: all 0.7 ease-in-out;
     -ms-transition: all 0.7s ease-in-out;
     -o-transition: all 0.7s ease-in-out;
     transition: all 0.7s ease-in-out;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 180px;
   }
 }
 
 .left-content .more-padding {
-  padding-right: 100px;
+  transform: translateX(-100px);
 }
 
 .right-content .more-padding {
-  padding-left: 100px;
+  transform: translateX(100px);
 }
