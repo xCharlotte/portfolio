@@ -9,6 +9,11 @@ set :stage, :production
 # server "example.com", user: "deploy", roles: %w{app web}, other_property: :other_value
 server '178.62.222.122', user: 'deploy', roles: %w{app db web}
 
+set :deploy_to, '/home/deploy/portfolio-site'
+
+set :rails_env, 'production'
+set :branch, 'master'
+
 # role-based syntax
 # ==================
 

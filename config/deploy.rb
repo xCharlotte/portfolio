@@ -7,8 +7,12 @@ set :repo_url, 'git@github.com:xCharlotte/portfolio.git'
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
-# Default deploy_to directory is /var/www/my_app_name
- set :deploy_to, '/home/deploy/portfolio-site'
+set :rbenv_ruby_version, '2.3.1p112'
+set :passenger_restart_with_touch, true
+set :pty, true
+
+append :linked_files, '.env'
+append :linked_dirs, 'log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'public/system', 'public/uploads'
 
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
@@ -25,10 +29,6 @@ set :repo_url, 'git@github.com:xCharlotte/portfolio.git'
 
 # Default value for linked_dirs is []
 # append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "public/system"
-
-append :linked_files, "config/database.yml", "config/secrets.yml"
-append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "vendor/bundle", "public/system", "public/uploads"
-
 
 # Default value for default_env is {}
 # set :default_env, { path: "/opt/ruby/bin:$PATH" }
