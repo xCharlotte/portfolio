@@ -7,7 +7,7 @@ set :repo_url, 'git@github.com:xCharlotte/portfolio.git'
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
-set :rbenv_ruby_version, '2.3.1p112'
+set :rbenv_ruby_version, '2.3.1'
 set :passenger_restart_with_touch, true
 set :pty, true
 
