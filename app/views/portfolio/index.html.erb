@@ -6,18 +6,15 @@
             <%= image_tag 'CharlieGitaar.png', class: 'avatar' %>
           </div>
           <div class="col-sm-9">
-            <h1><strong>Hello there :)</strong></h1>
-              <p>Mijn naam is Charlotte Voskuilen.
-                Ik ben 25 jaar en ik volg momenteel voor de derde keer de minor
-                The Next Web op mijn opleiding Communicatie & Multimedia
-                Design op het NHL in Leeuwarden. </p>
+            <h1><strong>Hi there!</strong></h1>
+              <p>My name is Charlotte Voskuilen and thank you for visiting my portfolio website.
+                I'm currently a student at the NHL University of applied science in Leeuwarden
+                where I follow the minor The Next Web. Here I'm working with the programming language Ruby on Rails, Swift and PHP.</p>
 
-                <p>Naast het bouwen van websites of het ontwikkelen van applicaties,
-                heb ik een grote passie voor muziek, dieren en fotografie. Ik woon op een boerderij waar ik omringd ben door
-                lieve dieren die ik verzorg. In mijn vrije tijd luister ik graag naar muziek en speel ik dit na op mijn
-                gitaar of maak ik foto's van de mooie omgeving waar ik woon.</p>
+                <p>Besides developing websites and applications, I have a great passion for music, animals and photography.
+                  </p>
 
-                <p><strong>Stuur gerust een <a href="mailto:charlottevoskuilen@hotmail.com">mail</a> voor vragen!</strong></p>
+                <p><strong>If you're curious, don't hesitate to send me an <a href="mailto:charlottevoskuilen@hotmail.com">e-mail</a> for any questions!</strong></p>
           </div>
         </div>
       </div>
@@ -29,26 +26,27 @@
       </div>
       <section class="timeline">
         <div class="container-fluid">
-          <h2>Mijn school en ervaringen</h2>
+          <h2>My school and experiences</h2>
             <article class="left-content">
               <div class="timeline-content">
                 <h1>2016</h1>
-                <p>Minor The Next Web op NHL te Leeuwarden</p>
-                <p>Februari 2016 - huidig</p>
+                <p>Minor The Next Web</p>
+                <p>Univeristy of applied science, NHL Leeuwarden</p>
+                <p>February 2016 - current</p>
               </div>
               <div class="spacing"></div>
               <div class="timeline-content">
                 <h1>2013</h1>
-                <p>Afstudeerstage Landstede Productiehuis te Zwolle</p>
-                <p>Productieleider cameracrew hoofdpodium BFO</p>
-                <p>Maart 2013 - Juni 2013</p>
+                <p>Final internship, Landstede Productiehuis in Zwolle</p>
+                <p>Productionleader of the mainstage cameracrew of liberation festival</p>
+                <p>March 2013 - June 2013</p>
               </div>
               <div class="spacing"></div>
               <div class="timeline-content">
                 <h1>2011</h1>
-                <p>Stagiair IQ Media te Zwolle</p>
-                <p>Camera & editor FC Zwolle TV</p>
-                <p>Februari 2011 - Juni 2011</p>
+                <p>Intern at IQ Media in Zwolle</p>
+                <p>Camera & editor for FC Zwolle TV</p>
+                <p>February 2011 - June 2011</p>
               </div>
               <div class="spacing"></div>
             </article>
@@ -56,21 +54,23 @@
               <div class="spacing"></div>
               <div class="timeline-content">
                 <h1>2015</h1>
-                <p>Communicatie Multimedia & Design op NHL te Leeuwarden</p>
-                <p>September 2015 - huidig</p>
+                <p>Communicatie & Multimedia Design</p>
+                <p>University of applied science, NHL Leeuwarden</p>
+                <p>September 2015 - current</p>
               </div>
               <div class="spacing"></div>
               <div class="timeline-content">
                 <h1>2012</h1>
-                <p>Stagiair Café Noir Nieuwe Media te Zwolle</p>
-                <p>Functie tweede camera & editor</p>
-                <p>Mei 2012 - Juli 2012</p>
+                <p>Intern, Café Noir Nieuwe Media in Zwolle</p>
+                <p>Second camera & editor</p>
+                <p>May 2012 - July 2012</p>
               </div>
               <div class="spacing"></div>
               <div class="timeline-content">
                 <h1>2009</h1>
-                <p>Media & Vormgeving op Landstede te Zwolle</p>
-                <p>Afgestudeerd AV Allround Medewerker</p>
+                <p>Media & Design</p>
+                <p>Secondary education, Landstede in Zwolle</p>
+                <p>Graduated AV Allround Employee</p>
                 <p>2009 - 2013</p>
               </div>
             </article>
@@ -83,26 +83,35 @@
         <i class="fa fa-paper-plane" aria-hidden="true"></i>
       </div>
       <div class="container">
-        <h2>Mijn portfolio</h2>
+        <h2>My work</h2>
         <div class="row">
           <div class="col-sm-4">
             <div class="work-holder">
+              <%= image_tag 'mockup_trimsalon.png' %>
             </div>
             <div class="my-portfolio">
-              <h3>Project 1</h3>
-              <p>Lorem ipsum dolor..</p>
+              <h3>Grooming Salon</h3>
+              <p>This is a website made for grooming dogs and cats.
+              Customers can create an appointment and find information about the hygiene in the salon.</p>
+              <p>In the near future I would like to add a product page where customers can order and buy products.</p>
+              <p><%= link_to 'Visit the website', 'https://www.gooischtrimsalon.nl' %> </p>
             </div>
           </div>
           <div class="col-sm-4">
             <div class="work-holder">
+              <%= image_tag 'mockup_rappapp.png' %>
             </div>
             <div class="my-portfolio">
-              <h3>Project 2</h3>
-              <p>Lorem ipsum dolor..</p>
+              <h3>Rapp app</h3>
+              <p>A schoolproject I did for the company <b>Nedap Healthcare</b>, where we
+              developed an app for the people who work in the home care. With this app you can
+              report the behaviour of your clients and it has elements of gamification in it
+              to make it more fun to use.</p>
             </div>
           </div>
           <div class="col-sm-4">
             <div class="work-holder">
+              <%= image_tag '' %>
             </div>
             <div class="my-portfolio">
               <h3>Project 3</h3>
