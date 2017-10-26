@@ -3,7 +3,7 @@
 
   .parallax {
     /* The image used */
-    background-image: image-url("music-is-life.jpeg");
+    background-image: image-url('skyline.png');
 
     /* Set a specific height */
     height: 680px;
@@ -33,13 +33,12 @@ footer {
         display: inline-block;
         width: 65px;
         height: 65px;
-        padding: 7.4px 0;
+        padding: 5px 0;
         border-radius: 50%;
         text-transform: uppercase;
         text-decoration: none;
-        font-size: 36px;
+        font-size: 38px;
         text-align: center;
-        // line-height: 5vw;
         margin-left: 10px;
         margin-right: 10px;
         background: #333333;

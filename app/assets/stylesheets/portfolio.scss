@@ -1,13 +1,13 @@
-.work-holder {
-  height: 300px;
-  background-color: #d8d8d8;
-}
-
-.my-portfolio {
-  padding: 25px;
-  background-color: #ffffff;
-  box-shadow: 0.5px 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.1);
-}
+// .work-holder {
+//   height: 300px;
+//   background-color: #d8d8d8;
+// }
+//
+// .my-portfolio {
+//   padding: 25px;
+//   background-color: #ffffff;
+//   box-shadow: 0.5px 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.1);
+// }
 
 #work {
   padding-bottom: 150px;
@@ -15,5 +15,25 @@
   h2 {
     color: #000;
     font-family: Gujarati Sangam MN;
+  }
+
+  .container {
+    padding: 0;
+  }
+
+  .content-image img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .caption {
+    box-shadow: 0.5px 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.1);
+    padding: 20px 20px 20px 20px;
+    height: 260px;
+
+    p {
+      margin: 0;
+      padding: 5px;
+    }
   }
 }
