@@ -19,9 +19,9 @@
   h2 {
     font-family: Gujarati Sangam MN;
     color: #fff;
-    padding-top: 470px;
     padding-bottom: 5px;
     font-size: 20px;
+    margin-top: 270px;
   }
 }
 
@@ -31,24 +31,32 @@ footer {
     margin: 0;
       li {
         display: inline-block;
-        width: 65px;
-        height: 65px;
-        padding: 5px 0;
+        width: 90px;
+        height: 90px;
         border-radius: 50%;
         text-transform: uppercase;
         text-decoration: none;
-        font-size: 38px;
+        font-size: 60px;
         text-align: center;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
         background: #333333;
+        box-shadow: 0 0 0 3px #333333;
       }
       a {
-        color: white;
+        color: #ffffff;
       }
       a:hover {
         text-decoration: none;
-        color: white;
+        color: #ffffff;
       }
+      li:hover {
+        box-shadow: 0 0 0 3px #ffffff;
+      }
+  }
+
+  .container {
+    margin: 0 auto;
+    float: center;
   }
 }
