@@ -18,14 +18,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  padding: 0;
+  padding: 25px 0;
+  height: 90vh;
 
   /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  @media (min-width: 500px) {
+    height: 100vh;
+    padding: 0;
+    background-attachment: fixed;
+    width: 100%;
+  }
 
   #logo {
     width: 60%;
@@ -40,7 +46,7 @@ section {
   .section-header {
     position: absolute;
     top: -40px;
-    left: 50%;
+    left: 51%;
     margin-left: -50px;
     text-align: center;
     padding-top: 10px;

@@ -38,6 +38,6 @@ class @GoogleAnalytics
 
   @analyticsId: ->
     # your google analytics ID(s) here...
-    'UA-108880787-1', 'www.charlottevoskuilen.nl.herokudns.com'
+    'UA-108880787-1'
 
 GoogleAnalytics.load()
