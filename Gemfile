@@ -1,5 +1,3 @@
-ruby '2.3.1'
-
 source 'https://rubygems.org'
 
 git_source(:github) do |repo_name|
@@ -35,23 +33,20 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 gem 'font-awesome-sass'
 
-# Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
-
 # Gem to enable environment variables
 gem 'dotenv-rails'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
-  gem 'capistrano-env-config'
 end
 
 group :development do
-  gem 'capistrano'
-  gem 'capistrano-rails'
+  # Capistrano
   gem 'capistrano-passenger'
-  gem 'capistrano-rbenv'
+  gem 'capistrano-rails'
+  gem 'capistrano-rvm'
+  gem 'capistrano-env-config'
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console', '>= 3.3.0'
   gem 'listen', '~> 3.0.5'
