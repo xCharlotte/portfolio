@@ -1,6 +1,6 @@
-server '178.62.222.122', user: 'deploy', roles: %w{app db web}
+server '188.166.32.225', user: 'deploy', roles: %w(web app db)
 
-set :deploy_to, '/home/deploy/portfolio-site'
+set :deploy_to, '/var/www/charlotte-portfolio-production/production'
 
 set :rails_env, 'production'
 set :branch, 'master'
